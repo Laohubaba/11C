@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main()
+{
+	int height = 180;
+	if (height <= 155)
+	{
+		printf("黄佳宇\n");
+		printf("是老丑比\n");
+	}
+	else if (height > 155 && height <= 165)
+	{
+		printf("黄佳宇\n");
+		printf("就是老丑比\n");
+	}
+	else if (height > 165 && height <= 175)
+	{
+		printf("黄佳宇\n");
+		printf("真的就是老丑比\n");
+	}
+	else
+		printf("不管什么黄佳宇\n");
+	    printf("真的就是老丑比\n");
+		//一百以内求奇数
+		//for  or  while循环
+
+		for (int i = 0; i <= 100; i++)//i+=2与i++相同
+		{
+			if (i % 2 == 1)
+				printf("%d  ", i);
+		}
+
+		int num = 3;
+		//if (num == 5)
+		if (5 == num)//最好
+			printf("hehe/n");
+	
+	return 0;
+}
