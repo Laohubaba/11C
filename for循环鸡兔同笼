@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{//鸡兔同笼
+	int j = 0;
+	int t = 0;
+	for ( j = 0; j <31; j++)//j<=30
+	{
+		t = 30 -j ;
+		if (j * 2 + t * 4 == 90)
+			break;
+		printf("鸡有： % d  兔有： % d", j, t);
+		
+	}
+
+
+	return 0;
+}
